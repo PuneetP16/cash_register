@@ -9,7 +9,7 @@ Web App which helps the user by telling them to return the change to the custome
 In a table it will show the minimum number of notes required to pay the bill. Notes available(Indian Rupee): [2000, 500, 100, 20, 10, 5, 1].  
 
 
-Live Demo: https://cashregisterwebapp.netlify.app
+Live Demo: https://cashregisterappp16.netlify.app
 
 ## Getting it running
 
