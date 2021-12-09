@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0ae1aebe6f.js" crossorigin="anonymous"></script>
+    <title>Cash Register</title>
+    
+</head>
+<body>
+    <div class="title">
+        <p>CASH REGISTER</p>
+    </div>
+    <main>
+        <div class="input-sec">
+            <label for="bill-input">Bill Amount:</label>
+            <input type="text" name="bill-input" id="bill-input">
+            <label for="cash-input">Cash given:</label>
+            <input type="text" name="cash-input" id="cash-input">
+            <button id="btn-check">Check</button>
+            <div class="error-handler"></div>
+        </div>
+        
+        <table class="change-table">
+            <caption>Here's your change</caption>
+            <tr>
+                <th>Number of Notes</th>
+                <td class="number"></td>
+                <td class="number"></td>
+                <td class="number"></td>
+                <td class="number"></td>
+                <td class="number"></td>
+                <td class="number"></td>
+                <td class="number"></td>
+            </tr>
+
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </main>
+    <div class="bottom-container">
+        <div class="icons">
+            <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/puneet-patel-96b607a0/"><i
+                    class="fab fa-linkedin fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://github.com/PuneetP16"><i
+                    class="fab fa-github fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://puneetpatel.netlify.app/"><i
+                    class="fas fa-user fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://twitter.com/PatelPuneet16"><i
+                    class="fab fa-twitter-square fa-2x"></i></a>
+        </div>
+        <p class="copyright">© 2021 Puneet Patel</p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
